@@ -1,0 +1,18 @@
+name: XML-WBXML-SyncML
+version: 0.01
+abstract: Convert SyncML messages between XML and WBXML
+author: David Glasser <glasser@bestpractical.com>
+license: perl
+distribution_type: module
+build_requires:
+  Test::More: 0
+  Test::XML: 0
+requires:
+  XML::DOM: 0
+  XML::SAX::Writer: 0
+  WAP::wbxml: 0
+  WAP::SAXDriver::wbxml: 0
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.36
